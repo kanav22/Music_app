@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.music.AlbumActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:textSize="12sp" />
+
+        <TextView
+            style="@style/CategoryStyle1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/album_screen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_albums"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="42dp"
+            android:maxWidth="42dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/chainsmokers_icon" />
+
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/memories" />
+
+        <Button
+            android:id="@+id/viewSongs1"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_songs"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/CategoryStyle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/this_screen_will_display_different_albums_in_the_music_app_the_activity_also_includes_view_songs_button_to_see_the_list_of_songs_under_this_album" />
+
+</LinearLayout>
+

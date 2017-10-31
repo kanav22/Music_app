@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.android.music.PaymentActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:textSize="12sp" />
+
+        <TextView
+            style="@style/CategoryStyle1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/payment_screen"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/CategoryStyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/this_payment_activity_will_connect_with_google_pay_api" />
+
+    <TextView
+        style="@style/CategoryStyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/we_must_have_or_obtain_your_own_android_pay_enabled_payment_processor_for_processing_credit_card_payments" />
+
+    <TextView
+        style="@style/CategoryStyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_api_provides_all_the_java_methods_you_need_to_implement_your_payment_process_flow_including_create_an_android_pay_buy_button_request_and_receive_encrypted_shipping_and_payment_information_about_the_user_allow_the_user_to_change_or_update_their_information_execute_a_transaction" />
+
+</LinearLayout>
+</ScrollView>
+

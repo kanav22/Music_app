@@ -1,0 +1,62 @@
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Music</string>
+
+
+    <string name="category_playlists">Playlists</string>
+
+
+    <string name="category_artists">Artists</string>
+
+    <string name="category_albums">Albums</string>
+
+    <string name="category_songs">Songs</string>
+
+    <string name="now_playing">Now playing</string>
+    <string name="view_songs">View Songs</string>
+    <string name="the_chainsmokers">The ChainSmokers</string>
+    <string name="buy_songs">Buy songs</string>
+    <string name="this_payment_activity_will_connect_with_google_pay_api">This Payment Activity will connect with Google Pay API</string>
+    <string name="we_must_have_or_obtain_your_own_android_pay_enabled_payment_processor_for_processing_credit_card_payments">We must have or obtain your own Android Pay enabled payment processor for processing credit card payments</string>
+    <string name="the_api_provides_all_the_java_methods_you_need_to_implement_your_payment_process_flow_including_create_an_android_pay_buy_button_request_and_receive_encrypted_shipping_and_payment_information_about_the_user_allow_the_user_to_change_or_update_their_information_execute_a_transaction">The API provides all the Java methods you need to implement your payment process flow, including: create an Android Pay buy button request and receive encrypted shipping and payment information about the user allow the user to change or update their information execute a transaction</string>
+    <string name="closer">Closer</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    <string name="something">Something</string>
+    <string name="album_screen">Album Screen</string>
+    <string name="back_to_main">Back to main</string>
+    <string name="back"><![CDATA[< BACK]]></string>
+    <string name="now_playing_screen">Now Playing Screen</string>
+    <string name="payment_screen">Payment Screen</string>
+    <string name="playlist_screen">Playlist Screen</string>
+    <string name="songs_screen">Songs Screen</string>
+    <string name="Playlist">Playlists</string>
+    <string name="Artists">Artists</string>
+    <string name="Albums">Albums</string>
+    <string name="Songs">Songs</string>
+    <string name="Payment_gateway">Payment Gateway</string>
+    <string name="Now_playing">Now Playing</string>
+    <string name="memories">Memories</string>
+    <string name="this_screen_will_display_different_albums_in_the_music_app_the_activity_also_includes_view_songs_button_to_see_the_list_of_songs_under_this_album">This screen will display different albums in the music app . The Activity also includes View Songs button to see the list of songs under this album</string>
+    <string name="artist_screen">Artist screen</string>
+    <string name="artistscreen_description">This screen will display different artists in the music app . The Activity also includes View Songs button to see the list of songs under this album</string>
+    <string name="now_playing_description">This screen will display current song which is being played in the music app , along with playback controls  to pause ,stop and play the song . To play the audio the app makes use of MediaPlayer class . We will take permission to access external storage  and we can access individual files  in the directory  using File.list()</string>
+    <string name="playlist_description">This screen will display Playlists of a user</string>
+    <string name="song_description">This screen will display list of songs in this app</string>
+    <string name="main_screen">Main Screen</string>
+    <string name="main_screen_description">We can go to different activities from this screen . This screen acts like a home screen for this app .</string>
+</resources>
